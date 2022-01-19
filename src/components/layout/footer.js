@@ -44,7 +44,7 @@ return (
             <StyledImage src={footerTopDesktop}  srcSet={`${footerTopMobile} 480w,
                 ${footerTopDesktop} 800w`}
                 sizes="(max-width: 600px) 480px,
-                800px"alt=""/>
+                800px"alt="photo"/>
         </CurveContainer>
         <StyledFooter>
             <FooterInfo>

@@ -50,11 +50,11 @@ return (
             {key===1&& <StyledImage src={backgroundTopDesktop1} srcSet={`${backgroundTopMobile1} 480w,
                 ${backgroundTopDesktop1} 800w`}
                 sizes="(max-width: 600px) 480px,
-                800px" alt=""/>}
+                800px" alt='photo'/>}
             {key===3&& <StyledImage src={backgroundTopDesktop2} srcset={`${backgroundTopMobile2} 480w,
                 ${backgroundTopDesktop2} 800w`}
                 sizes="(max-width: 600px) 480px,
-                800px" alt=""/>}
+                800px" alt='photo'/>}
         </CurveContainer>
         <PostContainer>
             <PostInfoContainer>
@@ -64,8 +64,8 @@ return (
             <StyledImage src={img}/>
         </PostContainer>
         <CurveContainer>
-            {key===1&& <StyledImage src={backgroundBottomDesktop1} alt=""/>}
-            {key===3&& <StyledImage src={backgroundBottomDesktop2} alt=""/>}
+            {key===1&& <StyledImage src={backgroundBottomDesktop1} alt="photo"/>}
+            {key===3&& <StyledImage src={backgroundBottomDesktop2} alt="photo"/>}
         </CurveContainer>
     </div>
 );

@@ -31,7 +31,7 @@ const posts =[
   
 export const MainPage = ()=>{
     return (
-        <div>
+        <main>
             <Header/>
             <Hero/>
             {posts.map((post, i)=><Post key={i+1} post={{...post, key:i+1}}/>)}
@@ -41,6 +41,6 @@ export const MainPage = ()=>{
                 challengeUrl={"https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2"}
                 repoUrl={"https://github.com/BatoolHasan/huddle-landing-page-with-curved-sections"}
             />
-        </div>
+        </main>
     );
 }
