@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import {Logo} from '../micro/Logo';
+import React from 'react';
+
 import { RoundButtonSmall } from "../micro/Buttons";
 const StyledHeader = styled.div`
 display:flex;

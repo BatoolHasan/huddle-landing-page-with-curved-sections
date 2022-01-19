@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import {theme} from '../theme';
+import React from 'react';
+
 const RoundButton= styled.button`
 border-radius:20px;
 background-color:${theme.pink};

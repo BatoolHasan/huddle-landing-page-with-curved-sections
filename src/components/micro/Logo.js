@@ -1,6 +1,8 @@
 import logo from '../../images/logo.svg';
 import styled from 'styled-components'
 import { StyledImage } from '../utils/utils';
+import React from 'react';
+
 const StyledImg = styled.img`
 width:100%;
 `;

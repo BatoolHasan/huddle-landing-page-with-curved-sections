@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import React from 'react';
+
 const StyledFooter = styled.footer`
 width:100%;
 height: 3em;

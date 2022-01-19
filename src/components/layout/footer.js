@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import React from 'react';
+
 import { StyledImage } from "../utils/utils";
 import { Newsletter } from "../sections/Newsletter";
 import { ParagraphSmall } from "../micro/Paragraphs";

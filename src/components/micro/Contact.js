@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import { WhiteIcon } from '../utils/utils';
+import React from 'react';
+
 const StyledText = styled.p`
 color:white;
 font-size:0.8em;

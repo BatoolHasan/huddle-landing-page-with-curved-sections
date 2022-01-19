@@ -1,5 +1,7 @@
 import {FacebookIcon, InstagramIcon, TwitterIcon} from "../micro/Social";
 import styled from "styled-components";
+import React from 'react';
+
 const StyledSocials = styled.div`
 display:grid;
 column-gap:1em;

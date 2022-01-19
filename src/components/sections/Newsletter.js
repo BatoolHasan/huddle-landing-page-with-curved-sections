@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import React from 'react';
+
 import { Heading3 } from "../micro/Headings";
 import { ParagraphSmall } from "../micro/Paragraphs";
 import {ButtonSmall} from "../micro/Buttons";

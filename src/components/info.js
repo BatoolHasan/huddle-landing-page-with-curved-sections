@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { theme } from "./theme";
 import { StyledImage } from "./utils/utils";
+import React from 'react';
+
 const StyledInfo = styled.div`
 display:grid;
 grid-template-columns: 1fr;

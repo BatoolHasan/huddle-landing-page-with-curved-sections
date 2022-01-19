@@ -1,5 +1,6 @@
 import Styled from 'styled-components';
 import {theme} from '../theme';
+import React from 'react';
 
 export const ParagraphMedium = Styled.p`
 color:${theme.veryDarkCyan};

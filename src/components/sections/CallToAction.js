@@ -1,6 +1,8 @@
 import { RoundButtonMedium } from "../micro/Buttons";
 import { Heading2, Heading3 } from "../micro/Headings";
 import styled from "styled-components";
+import React from 'react';
+
 const StyledCallToAction = styled.div`
 display:grid;
 row-gap:2em;

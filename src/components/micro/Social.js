@@ -1,4 +1,6 @@
 import { WhiteIcon } from '../utils/utils';
+import React from 'react';
+
 export const TwitterIcon = ()=>{
     return (
         <WhiteIcon>

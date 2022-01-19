@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import React from 'react';
+
 import {  ParagraphMedium } from "../micro/Paragraphs";
 import { Heading1 } from "../micro/Headings";
 import { RoundButtonMedium} from "../micro/Buttons";

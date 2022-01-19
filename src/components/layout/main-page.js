@@ -1,4 +1,6 @@
 import { Header } from "./header";
+import React from 'react';
+
 import {Hero} from '../sections/Hero';
 import grow from '../../images/illustration-grow-together.svg';
 import flow from '../../images/illustration-flowing-conversation.svg';

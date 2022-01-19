@@ -1,4 +1,6 @@
 import Styled from 'styled-components';
+import React from 'react';
+
 import {theme} from '../theme';
 
 export const Heading1 = Styled.h1`

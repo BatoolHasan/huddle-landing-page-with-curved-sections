@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import React from 'react';
+
 import {theme} from '../theme';
 import backgroundTopDesktop1 from '../../images/bg-section-top-desktop-1.svg';
 import backgroundTopDesktop2 from '../../images/bg-section-top-desktop-2.svg';
