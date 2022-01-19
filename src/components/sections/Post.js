@@ -61,7 +61,7 @@ return (
                 <StyledHeading3>{title}</StyledHeading3>
                 <ParagraphSmall>{paragraph}</ParagraphSmall>
             </PostInfoContainer>
-            <StyledImage src={img}/>
+            <StyledImage src={img} alt="illustration"/>
         </PostContainer>
         <CurveContainer>
             {key===1&& <StyledImage src={backgroundBottomDesktop1} alt="photo"/>}
